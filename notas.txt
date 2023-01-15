@@ -1,0 +1,11 @@
+nombre, apellido y puesto
+fotito
+datos de contacto
+descripcion
+educacion
+programas informaticos
+experiencia laboral
+cursos
+habilidades 
+idiomas
+
