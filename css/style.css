@@ -1,8 +1,14 @@
-div {
-  /*border: solid 1px blue;*/
+/*div {
+  border: solid 1px blue;
 }
 
-#foto {
-  max-width: 250px;
+#primeraColumna {
+  min-width: 400px;
   width: 100%;
+}
+*/
+
+#foto {
+  height: 200px;
+  width: auto;
 }
