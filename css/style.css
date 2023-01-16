@@ -1,13 +1,3 @@
-/*div {
-  border: solid 1px blue;
-}
-
-#primeraColumna {
-  min-width: 400px;
-  width: 100%;
-}
-*/
-
 #foto {
   height: 200px;
   width: auto;
@@ -28,6 +18,28 @@ div {
   border-radius: 5px 30px 45px 60px;
 }
 
-#t9 {
+#t9,
+#header,
+#footer {
   border-radius: 30px;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+}
+
+p {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+#header {
+  min-height: 80px;
+}
+
+h5 {
+  font-family: "Sofia Sans", sans-serif;
+}
+
+#nombre {
+  font-family: "Sofia Sans", sans-serif;
 }

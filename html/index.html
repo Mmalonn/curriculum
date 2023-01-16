@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- links a estilos -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../css/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -11,6 +20,11 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- enlaces javascript -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
@@ -20,8 +34,8 @@
   </head>
   <body>
     <header class="mb-2">
-      <div class="text-center">
-        <h1 class="bg-secondary mb-1">Curriculum vitae</h1>
+      <div class="text-center px-4">
+        <h1 class="bg-secondary mb-1" id="header">Curriculum vitae</h1>
       </div>
     </header>
     <div class="container-fluid">
@@ -31,8 +45,8 @@
             <div class="col p-0 mb-2">
               <img src="../img/foto de perfil.jpg" id="foto" alt="foto" />
             </div>
-            <div class="col mb-2">
-              <h3>Frederick Robertson</h3>
+            <div class="col mb-2" id="nombre">
+              <h3><u>Frederick Robertson</u></h3>
               <h4>Soldador industrial</h4>
             </div>
           </div>
@@ -56,11 +70,14 @@
               error.
             </p>
           </div>
-          <div class="bg-success p-3 mt-3 mb-3" id="t3">
+          <div class="bg-success p-4 mt-3 mb-3" id="t3">
             <h5>Redes</h5>
-            <p>Facebook: https://www.facebook.com/frede.robertson</p>
-            <p>Instagram: https://www.instagram.com/frede.robertson</p>
-            <p>Twitter: https://twitter.com/frede.robertson</p>
+            <p class="m-2">Enlace a Facebook: </p>
+            <a href="https://www.facebook.com/frede.robertson" class="btn btn-dark">https://www.facebook.com/frede.robertson</a>
+            <p class="m-2">Enlace a Instagram: </p>
+            <a href="https://www.instagram.com/frede.robertson" class="btn btn-dark">https://www.instagram.com/frede.robertson</a>
+            <p class="m-2">Enlace a Twitter:</p>
+            <a href="https://twitter.com/frede.robertson" class="btn btn-dark">https://twitter.com/frede.robertson</a>
           </div>
         </div>
         <div class="col-lg bg-danger">
@@ -143,8 +160,8 @@
       </div>
     </div>
 
-    <footer>
-      <div class="bg-secondary mt-1">
+    <footer class="px-4">
+      <div class="bg-secondary mt-1" id="footer">
         <h5 class="text-center">Datos de contacto</h5>
         <div class="text-center">
           <p>Mail: frede_robertson@gmail.com</p>
