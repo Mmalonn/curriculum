@@ -13,14 +13,6 @@
   width: auto;
 }
 
-#contenidoPrincipal {
-  max-width: 100%;
-}
-
-#columnaDos {
-  padding-left: 25px;
-}
-
 div {
   word-wrap: break-word;
 }
