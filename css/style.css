@@ -29,12 +29,14 @@ a {
 #t8 {
   background-color: #505f95;
   border-radius: 5px 30px 45px 60px;
+  opacity: 0.9;
 }
 
 #t9 {
   border-radius: 30px;
   background-color: #505f95;
   color: white;
+  opacity: 0.9;
 }
 
 h1 {
@@ -75,18 +77,28 @@ h5 {
 }
 
 @media (min-width: 767px) {
-  #desplegable {
+  #desplegable,
+  #b1,
+  #b2,
+  #b3,
+  #b4,
+  #b5,
+  #b6,
+  #b7,
+  #b8,
+  #b9 {
     display: none;
   }
 }
 
 @media (max-width: 768px) {
   header {
+    z-index: 1;
     position: sticky;
     top: 0;
   }
   #desplegable {
-    position: absolute;
+    position: absolute; 
     top: 0;
     right: 0;
   }
