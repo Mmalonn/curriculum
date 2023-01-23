@@ -9,3 +9,12 @@ cursos
 habilidades 
 idiomas
 
+
+
+falta completar
+
+
+
+boton menu desplegable que envie a partes del documento cuando esta en version movil
+hacer que titulos escondan el contenido o lo muestren
+767

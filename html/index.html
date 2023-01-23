@@ -34,13 +34,47 @@
   </head>
   <body>
     <div id="body">
-      <header class="mb-2">
-        <div class="text-center px-4">
-          <h1 class="bg-secondary mb-1" id="header">Curriculum vitae</h1>
+      <header>
+        <h1 id="header" class="bg-secondary text-center">Curriculum vitae</h1>
+        <div>
+          <div id="desplegable">
+            <div class="d-flex flex-row-reverse dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Ir a
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#datos">Datos</a></li>
+                <li><a class="dropdown-item" href="#sobreMi">Sobre mi</a></li>
+                <li><a class="dropdown-item" href="#redes">Redes</a></li>
+                <li>
+                  <a class="dropdown-item" href="#educacion">Educación</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#programas">Programas</a>
+                </li>
+                <li><a class="dropdown-item" href="#cursos">Cursos</a></li>
+                <li>
+                  <a class="dropdown-item" href="#habilidades">Habilidades</a>
+                </li>
+                <li><a class="dropdown-item" href="#idiomas">Idiomas</a></li>
+                <li>
+                  <a class="dropdown-item" href="#experiencia"
+                    >Experiencia laboral</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </header>
-      <div class="container-fluid">
-        <div class="row" id="contenidoPrincipal">
+      <div>
+        <div class="container-fluid row" id="contenidoPrincipal">
           <div class="col-lg-3 m-2" id="c1">
             <div class="row align-items-center">
               <div class="col p-0 mb-2">
@@ -52,6 +86,7 @@
               </div>
             </div>
             <div class="bg-success mt-3 p-3" id="t1">
+              <a name="datos"></a>
               <h5>Mis datos</h5>
               <p>Nombre y apellido: <b>Frederick Robertson</b></p>
               <p>Nacionalidad: <b>Argentina</b></p>
@@ -60,6 +95,7 @@
               <p>Edad: <b>45 años</b></p>
             </div>
             <div class="bg-success p-3 mt-3" id="t2">
+              <a name="sobreMi"></a>
               <h5>Un poco sobre mi</h5>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -72,6 +108,7 @@
               </p>
             </div>
             <div class="bg-success p-4 mt-3 mb-3" id="t3">
+              <a name="redes"></a>
               <h5>Redes</h5>
               <p class="m-2">Enlace a Facebook:</p>
               <a
@@ -95,6 +132,7 @@
             <div class="row">
               <div class="col-md">
                 <div class="bg-success mt-3 p-3" id="t4">
+                  <a name="educacion"></a>
                   <h5>Educación</h5>
                   <p>Datos 1: Lorem ipsum dolor sit.</p>
                   <p>Datos 2: Lorem ipsum dolor sit amet consectetur.</p>
@@ -104,6 +142,7 @@
                   <p>Datos 4: Lorem ipsum dolor sit.</p>
                 </div>
                 <div class="bg-success mt-3 p-3" id="t5">
+                  <a name="programas"></a>
                   <h5>Programas</h5>
                   <p>Datos 1: Lorem ipsum dolor sit.</p>
                   <p>Datos 2: Lorem ipsum dolor, sit amet consectetur.</p>
@@ -115,6 +154,7 @@
                   <p>Datos 6: Lorem ipsum dolor sit amet.</p>
                 </div>
                 <div class="bg-success mt-3 p-3" id="t6">
+                  <a name="cursos"></a>
                   <h5>Cursos</h5>
                   <p>Datos 1: Lorem ipsum dolor sit.</p>
                   <p>Datos 2: Lorem ipsum dolor sit amet consectetur.</p>
@@ -126,6 +166,7 @@
               </div>
               <div class="col-md">
                 <div class="bg-success mt-3 p-3" id="t7">
+                  <a name="habilidades"></a>
                   <h5>Mis habilidades</h5>
                   <p>Datos 1: Lorem ipsum dolor sit.</p>
                   <p>Datos 2: Lorem ipsum dolor sit amet consectetur.</p>
@@ -141,6 +182,7 @@
                   <p>Datos 4: Lorem ipsum dolor sit.</p>
                 </div>
                 <div class="bg-success mt-3 p-3" id="t8">
+                  <a name="idiomas"></a>
                   <h5>Idiomas</h5>
                   <p>ingles: medio</p>
                   <p>español: medio</p>
@@ -150,6 +192,7 @@
             </div>
             <div class="m-3">
               <div class="bg-success m-4 p-3" id="t9">
+                <a name="experiencia"></a>
                 <h5>Mi experiencia laboral</h5>
                 <p>
                   Datos 1: Lorem ipsum dolor, sit amet consectetur adipisicing
@@ -171,8 +214,8 @@
         </div>
       </div>
 
-      <footer class="px-4">
-        <div class="bg-secondary mt-1" id="footer">
+      <footer>
+        <div class="bg-secondary mt-1">
           <h5 class="text-center">Datos de contacto</h5>
           <div class="text-center">
             <p>Mail: frede_robertson@gmail.com</p>

@@ -30,9 +30,7 @@ a {
   border-radius: 5px 30px 45px 60px;
 }
 
-#t9,
-#header,
-#footer {
+#t9 {
   border-radius: 30px;
 }
 
@@ -44,12 +42,18 @@ p {
   font-family: "Fira Sans Condensed", sans-serif;
 }
 
+#contenidoPrincipal {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
 #header {
-  min-height: 80px;
+  min-height: 40px;
 }
 
 h5 {
   font-family: "Sofia Sans", sans-serif;
+  border-bottom: 1px solid black;
 }
 
 #nombre {
@@ -63,4 +67,22 @@ h5 {
 #c2 {
   border-radius: 30px 30px 30px 30px;
   background-color: #9e4c4c;
+}
+
+@media (min-width: 767px) {
+  #desplegable {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    position: sticky;
+    top: 0;
+  }
+  #desplegable {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
 }
