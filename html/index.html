@@ -5,32 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- links a estilos -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="../css/style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@1,900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- enlaces javascript -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
-
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@1,900&display=swap" rel="stylesheet"/>
+    <!-- enlace javascript bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <title>Curriculum</title>
   </head>
   <body>
@@ -38,44 +19,29 @@
       <header>
         <h1 id="header" class="bg-secondary text-center">Curriculum vitae</h1>
         <div>
+          <!--boton del menu desplegable que se activa en el modo movil-->
           <div id="desplegable">
             <div class="d-flex flex-row-reverse dropdown">
-              <button
-                class="btn dropdown-toggle"
-                type="button"
-                id="dropdownMenuButton1"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Ir a
-              </button>
+              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Ir a</button>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li><a class="dropdown-item" href="#datos">Datos</a></li>
                 <li><a class="dropdown-item" href="#sobreMi">Sobre mi</a></li>
                 <li><a class="dropdown-item" href="#redes">Redes</a></li>
-                <li>
-                  <a class="dropdown-item" href="#educacion">Educación</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#programas">Programas</a>
-                </li>
+                <li><a class="dropdown-item" href="#educacion">Educación</a></li>
+                <li><a class="dropdown-item" href="#programas">Programas</a></li>
                 <li><a class="dropdown-item" href="#cursos">Cursos</a></li>
-                <li>
-                  <a class="dropdown-item" href="#habilidades">Habilidades</a>
-                </li>
+                <li><a class="dropdown-item" href="#habilidades">Habilidades</a></li>
                 <li><a class="dropdown-item" href="#idiomas">Idiomas</a></li>
-                <li>
-                  <a class="dropdown-item" href="#experiencia"
-                    >Experiencia laboral</a
-                  >
-                </li>
+                <li><a class="dropdown-item" href="#experiencia">Experiencia laboral</a></li>
               </ul>
             </div>
           </div>
         </div>
       </header>
       <div>
+        <!--div general del contenido-->
         <div class="container-fluid row" id="contenidoPrincipal">
+          <!--columna izquierda simple-->
           <div class="col-lg-3 m-2" id="c1">
             <div class="row align-items-center">
               <div class="col p-0 mb-2">
@@ -91,18 +57,8 @@
               <div class="d-flex justify-content-around">
                 <h5>Mis datos</h5>
                 <button id="b1" type="button" class="btn btn-secondary">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="mb-2 bi bi-arrow-bar-down"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"
-                    ></path>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-2 bi bi-arrow-bar-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"></path>
                   </svg>
                 </button>
               </div>
@@ -120,18 +76,8 @@
               <div class="d-flex justify-content-around">
                 <h5>Un poco de mi</h5>
                 <button id="b2" type="button" class="btn btn-secondary">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="mb-2 bi bi-arrow-bar-down"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"
-                    ></path>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-2 bi bi-arrow-bar-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"></path>
                   </svg>
                 </button>
               </div>
@@ -148,79 +94,44 @@
                 <a name="redes"></a>
               </div>
             </div>
-            <div class="p-4 mt-3 mb-3" id="t3">
-              
+            <div class="p-4 mt-3 mb-3" id="t3">       
               <div class="d-flex justify-content-around">
                 <h5>Redes</h5>
                 <button id="b3" type="button" class="btn btn-secondary">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="mb-2 bi bi-arrow-bar-down"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-2 bi bi-arrow-bar-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"
                     ></path>
                   </svg>
                 </button>
               </div>
               <div id="p3">
                 <p class="m-2">Enlace a Facebook:</p>
-                <a
-                  href="https://www.facebook.com/frede.robertson"
-                  class="bg-black p-1"
-                  >facebook.com/frede.robertson</a
-                >
+                <a href="https://www.facebook.com/frede.robertson" class="bg-black p-1">facebook.com/frede.robertson</a>
                 <p class="m-2">Enlace a Instagram:</p>
-                <a
-                  href="https://www.instagram.com/frede.robertson"
-                  class="bg-black p-1"
-                  >instagram.com/frede.robertson</a
-                >
+                <a href="https://www.instagram.com/frede.robertson" class="bg-black p-1">instagram.com/frede.robertson</a>
                 <p class="m-2">Enlace a Twitter:</p>
-                <a
-                  href="https://twitter.com/frede.robertson"
-                  class="bg-black p-1"
-                  >twitter.com/frede.robertson</a
-                >
+                <a href="https://twitter.com/frede.robertson" class="bg-black p-1">twitter.com/frede.robertson</a>
                 <a name="educacion"></a>
               </div>
             </div>
           </div>
+          <!--columna derecha doble-->
           <div class="col-lg m-2" id="c2">
             <div class="row">
               <div class="col-md">
-                <div class="mt-3 p-3" id="t4">
-                  
+                <div class="mt-3 p-3" id="t4">                
                   <div class="d-flex justify-content-around">
                     <h5>Educación</h5>
                     <button id="b4" type="button" class="btn btn-secondary">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="mb-2 bi bi-arrow-bar-down"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"
-                        ></path>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-2 bi bi-arrow-bar-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"></path>
                       </svg>
                     </button>
                   </div>
                   <div id="p4">
                     <p>Datos 1: Lorem ipsum dolor sit.</p>
                     <p>Datos 2: Lorem ipsum dolor sit amet consectetur.</p>
-                    <p>
-                      Datos 3: Lorem ipsum dolor sit amet consectetur
-                      adipisicing.
-                    </p>
+                    <p>Datos 3: Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                     <p>Datos 4: Lorem ipsum dolor sit.</p>
                     <a name="programas"></a>
                   </div>
@@ -229,28 +140,15 @@
                   <div class="d-flex justify-content-around">
                     <h5>Programas que manejo</h5>
                     <button id="b5" type="button" class="btn btn-secondary">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="mb-2 bi bi-arrow-bar-down"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"
-                        ></path>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-2 bi bi-arrow-bar-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"></path>
                       </svg>
                     </button>
                   </div>
                   <div id="p5">
                     <p>Datos 1: Lorem ipsum dolor sit.</p>
                     <p>Datos 2: Lorem ipsum dolor, sit amet consectetur.</p>
-                    <p>
-                      Datos 3: Lorem ipsum dolor sit amet consectetur
-                      adipisicing.
-                    </p>
+                    <p> Datos 3: Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                     <p>Datos 4: Lorem ipsum dolor sit.</p>
                     <p>Datos 5: lorem2</p>
                     <p>Datos 6: Lorem ipsum dolor sit amet.</p>
@@ -261,28 +159,15 @@
                   <div class="d-flex justify-content-around">
                     <h5>Cursos</h5>
                     <button id="b6" type="button" class="btn btn-secondary">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="mb-2 bi bi-arrow-bar-down"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"
-                        ></path>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-2 bi bi-arrow-bar-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"></path>
                       </svg>
                     </button>
                   </div>
                   <div id="p6">
                     <p>Datos 1: Lorem ipsum dolor sit.</p>
                     <p>Datos 2: Lorem ipsum dolor sit amet consectetur.</p>
-                    <p>
-                      Datos 3: Lorem ipsum dolor sit amet consectetur
-                      adipisicing.
-                    </p>
+                    <p>Datos 3: Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                     <p>Datos 4: Lorem ipsum dolor sit.</p>
                     <a name="habilidades"></a>
                   </div>
@@ -293,35 +178,19 @@
                   <div class="d-flex justify-content-around">
                     <h5>Mis Habilidades</h5>
                     <button id="b7" type="button" class="btn btn-secondary">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="mb-2 bi bi-arrow-bar-down"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"
-                        ></path>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-2 bi bi-arrow-bar-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"></path>
                       </svg>
                     </button>
                   </div>
                   <div id="p7">
                     <p>Datos 1: Lorem ipsum dolor sit.</p>
                     <p>Datos 2: Lorem ipsum dolor sit amet consectetur.</p>
-                    <p>
-                      Datos 3: Lorem ipsum dolor sit amet consectetur
-                      adipisicing.
-                    </p>
+                    <p>Datos 3: Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                     <p>Datos 4: Lorem ipsum dolor sit.</p>
                     <p>Datos 1: Lorem ipsum dolor sit.</p>
                     <p>Datos 2: Lorem ipsum dolor sit amet consectetur.</p>
-                    <p>
-                      Datos 3: Lorem ipsum dolor sit amet consectetur
-                      adipisicing.
-                    </p>
+                    <p>Datos 3: Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                     <p>Datos 4: Lorem ipsum dolor sit.</p>
                     <a name="idiomas"></a>
                   </div>
@@ -330,18 +199,8 @@
                   <div class="d-flex justify-content-around">
                     <h5>Idiomas que manejo</h5>
                     <button id="b8" type="button" class="btn btn-secondary">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="mb-2 bi bi-arrow-bar-down"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"
-                        ></path>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-2 bi bi-arrow-bar-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"></path>
                       </svg>
                     </button>
                   </div>
@@ -359,43 +218,26 @@
                 <div class="d-flex justify-content-around">
                   <h5>Mi experiencia laboral</h5>
                   <button id="b9" type="button" class="btn btn-secondary">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="mb-2 bi bi-arrow-bar-down"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"
-                      ></path>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-2 bi bi-arrow-bar-down" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"></path>
                     </svg>
                   </button>
                 </div>
                 <div id="p9">
-                  <p>
-                    Datos 1: Lorem ipsum dolor, sit amet consectetur adipisicing
+                  <p>Datos 1: Lorem ipsum dolor, sit amet consectetur adipisicing
                     elit. Doloribus reiciendis ab vel maiores, error quasi nam
-                    corporis enim? Possimus, amet!
-                  </p>
-                  <p>
-                    Datos 2: Lorem ipsum dolor sit amet consectetur adipisicing
+                    corporis enim? Possimus, amet!</p>
+                  <p>Datos 2: Lorem ipsum dolor sit amet consectetur adipisicing
                     elit. Veritatis, obcaecati repudiandae. Totam, officiis
-                    eaque? Cumque?
-                  </p>
-                  <p>
-                    Datos 2: Lorem ipsum dolor sit, amet consectetur adipisicing
-                    elit. Quod, nobis?
-                  </p>
+                    eaque? Cumque?</p>
+                  <p>Datos 2: Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Quod, nobis?</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
       <footer>
         <div class="bg-secondary mt-1">
           <h5 class="text-center">Datos de contacto</h5>
@@ -407,6 +249,7 @@
         </div>
       </footer>
     </div>
+    <!--script del js-->
     <script src="../javascript/script.js"></script>
   </body>
 </html>
